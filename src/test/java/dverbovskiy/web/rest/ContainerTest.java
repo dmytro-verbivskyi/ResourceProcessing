@@ -3,10 +3,7 @@ package dverbovskiy.web.rest;
 import dverbovskiy.util.DebugUtil;
 import org.json.simple.JSONObject;
 import org.json.simple.JSONArray;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-import org.junit.Rule;
+import org.junit.*;
 import org.junit.rules.TestName;
 
 import static org.junit.Assert.*;
@@ -111,6 +108,7 @@ public class ContainerTest {
         assertEquals(o.toString(), "text");
     }
 
+    @Ignore("Not Ready to Run")
     @Test
     public void testPut_PreviousData01() throws Exception {
         Container container = Container.getInstance();
@@ -176,6 +174,7 @@ public class ContainerTest {
         container.put(OPTIONS + ".1", "text");
     }
 
+    @Ignore("Not Ready to Run")
     @Test
     public void testPut_NoSuchPath01() throws Exception {
         Container container = Container.getInstance();
