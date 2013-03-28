@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../.IdeaModules/ResourceProcessing/ResourceProcessing.iml" filepath="$PROJECT_DIR$/../.IdeaModules/ResourceProcessing/ResourceProcessing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ResourceProcessing.iml" filepath="$PROJECT_DIR$/ResourceProcessing.iml" />
     </modules>
   </component>
 </project>
