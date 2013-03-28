@@ -4,7 +4,7 @@
 .classpath
 .project
 .settings/
-# /**/.idea/workspace.xml
+workspace.xml
 *.iws
 .DS_Store
 *.log
