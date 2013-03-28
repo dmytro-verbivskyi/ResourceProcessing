@@ -1,5 +1,7 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>Resource Processing</h2>
+Small web application for different purposes.<br>
+<b>Dmitriy Verbovskiy:</b> dverbovskiy{at}gmail.com
 </body>
 </html>
