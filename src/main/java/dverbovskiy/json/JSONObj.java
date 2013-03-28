@@ -82,6 +82,17 @@ public class JSONObj {
                 }
                 break;
                 case ELEMENT_ARRAY: {
+                    JSONArray jO = (JSONArray) parent;
+                    int index = Integer.parseInt(key);
+
+                    if (jO.size() <= index) {
+                        for (int j = 0; j <= index; j++) {
+                            jO.add(j, null);
+                        }
+                        jO.set(index, new JSONArray());
+                    }
+                    grandParent = parent;
+                    parent = jO.get(index);
                 }
                 break;
                 case ELEMENT:
@@ -91,7 +102,7 @@ public class JSONObj {
 
                     if (jO.size() <= index) {
                         for (int j = 0; j <= index; j++) {
-                            jO.add(j, new JSONObject());
+                            jO.add(j, null);
                         }
                     }
                     if (type == JSONPathType.ELEMENT) {

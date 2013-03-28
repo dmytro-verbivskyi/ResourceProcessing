@@ -59,13 +59,13 @@ public class JSONObjTest {
     public void testPut_Array2() throws Exception {
         JSONObj json = JSONObj.getInstance();
         json.put("a.2", 1);
-        assertEquals("{\"a\":[{},{},1]}", json.toString());
+        assertEquals("{\"a\":[null,null,1]}", json.toString());
     }
 
     @Test
     public void testPut_Array3() throws Exception {
         JSONObj json = JSONObj.getInstance();
-        json.put("a.2.2", 1);
-        assertEquals("{\"a\":[{},{},[{},{},1]]}", json.toString());
+        json.put("a.1.2", 1);
+        assertEquals("{\"a\":[null,[null,null,1]]}", json.toString());
     }
 }
