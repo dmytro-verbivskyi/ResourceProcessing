@@ -66,6 +66,6 @@ public class JSONObjTest {
     public void testPut_Array3() throws Exception {
         JSONObj json = JSONObj.getInstance();
         json.put("a.2.2", 1);
-        assertEquals("{\"a\":[{},{},1]}", json.toString());
+        assertEquals("{\"a\":[{},{},[{},{},1]]}", json.toString());
     }
 }
