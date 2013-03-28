@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1bc9454-6fec-4b71-88f0-6acfbe900128" name="Default" comment="gitignore 3">
-      <change type="DELETED" beforePath="D:\Work\ResourceProcessing\.idea\workspace.xml" afterPath="" />
+    <list default="true" id="e1bc9454-6fec-4b71-88f0-6acfbe900128" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="ResourceProcessing.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e1bc9454-6fec-4b71-88f0-6acfbe900128" time="1364505293886" ignored="false" />
+    <file path="/Dummy.txt" changelist="e1bc9454-6fec-4b71-88f0-6acfbe900128" time="1364505471904" ignored="false" />
     <file path="/.gitignore" changelist="e1bc9454-6fec-4b71-88f0-6acfbe900128" time="1364505041406" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="53" selection-start="197" selection-end="197" vertical-scroll-proportion="0.31296572">
+            <state line="10" column="7" selection-start="197" selection-end="197" vertical-scroll-proportion="0.31296572">
               <folding />
             </state>
           </provider>
@@ -616,7 +616,11 @@
       <created>1364505269697</created>
       <updated>1364505269697</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="git rm --cached .idea/workspace.xml">
+      <created>1364505474785</created>
+      <updated>1364505474785</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -708,7 +712,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="git rm --cached .idea/workspace.xml" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -726,6 +730,7 @@
     <MESSAGE value="gitignore" />
     <MESSAGE value="gitignore 2" />
     <MESSAGE value="gitignore 3" />
+    <MESSAGE value="git rm --cached .idea/workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -830,7 +835,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="53" selection-start="197" selection-end="197" vertical-scroll-proportion="0.31296572">
+        <state line="10" column="7" selection-start="197" selection-end="197" vertical-scroll-proportion="0.31296572">
           <folding />
         </state>
       </provider>
