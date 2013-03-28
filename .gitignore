@@ -1,8 +1,10 @@
+# -------------------------------- #
+# GitIgnore for IDEA/Eclipse/Maven #
+# -------------------------------- #
 .classpath
 .project
 .settings/
-.idea/workspace.xml
-.idea/tasks.xml
+workspace.xml
 *.iws
 .DS_Store
 *.log
