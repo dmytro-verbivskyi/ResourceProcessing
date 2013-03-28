@@ -1,0 +1,9 @@
+.classpath
+.project
+.settings/
+.idea/workspace.xml
+.idea/tasks.xml
+*.iws
+.DS_Store
+*.log
+target/
