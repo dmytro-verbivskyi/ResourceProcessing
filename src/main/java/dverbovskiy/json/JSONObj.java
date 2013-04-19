@@ -101,13 +101,23 @@ public class JSONObj {
                     int index = Integer.parseInt(key);
 
                     if (jO.size() <= index) {
-                        for (int j = 0; j <= index; j++) {
+                        int from = jO.size();
+
+                        //TODO Maybe this block is redundant, because lower if null we set
+                        for (int j = from; j <= index; j++) {
                             jO.add(j, null);
                         }
                     }
+
                     if (type == JSONPathType.ELEMENT) {
                         grandParent = parent;
                         parent = jO.get(index);
+
+                        if (parent == null) {
+                            // so element inside an array is empty
+                            jO.set(index, new JSONObject());
+                            parent = jO.get(index);
+                        }
                     } else {
                         previousValue = jO.set(index, value);
                     }

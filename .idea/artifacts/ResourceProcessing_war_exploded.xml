@@ -23,6 +23,7 @@
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-xc:1.9.2" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
           <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" />
+          <element id="library" level="project" name="Maven: org.perf4j:perf4j:0.9.16" />
         </element>
       </element>
     </root>

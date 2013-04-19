@@ -269,53 +269,6 @@ container.put("data.person.children.1.name", "Pupkin Nikolay Nikolayevich");
 container.put("data.person.children.1.children", null);
 container.put("options", null);
 */
-/*
-{
-   "cmd":"createPerson",
-   "data":{
-      "person":{
-         "married":true,
-         "age":59,
-         "name":"Pupkin Ivan Ivanovich",
-         "children":[
-            {
-               "married":true,
-               "age":34,
-               "name":"Pupkin Nikolay Ivanovich",
-               "children":[
-                  {
-                     "married":false,
-                     "age":9,
-                     "name":"Pupkin Petr Nikolayevich",
-                     "children":[
 
-                     ]
-                  },
-                  {
-                     "married":false,
-                     "age":4,
-                     "name":"Pupkin Nikolay Nikolayevich",
-                     "children":[
-
-                     ]
-                  }
-               ]
-            },
-            {
-               "married":false,
-               "age":19,
-               "name":"Pupkin Igor Ivanovich",
-               "children":[
-
-               ]
-            }
-         ]
-      }
-   },
-   "options":{
-
-   }
-}
-*/
     }
 }
